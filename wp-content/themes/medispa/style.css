@@ -1,0 +1,1199 @@
+/*
+Theme Name: MediSpa
+Author: Themescorners
+Author URI: https://themescorners.com/
+Theme URI: https://themescorners.com/tc_theme/medispa/
+Description: Medispa Theme is a Full Responsive Multi-Purpose Theme. Medispa Theme is suitable for spa, salons, beauty, care, hair, health, hospitality, massage, medical, parlor, physiotherapy, wellness, yoga, health blog and for any type of business’s. Medispa Theme is a fast, lightweight, mobile responsive WordPress theme. Medispa Theme is built with speed, SEO and usability in mind. Medispa Theme have 7 widget ready areas which helps you in creating any type of site. MediSpa Theme is support for drop-down menus, in built core widgets and contact form styling support. Create your website exactly the way you want it using the Customize. Medispa Theme is see your changes take place right in front of you before publishing. Create an effective online shop presence since theme have a support for very famous plugin WooCommerce. Separate WooCommerce Sidebar added in the shop pages so that you can add different set of widgets from default templates. Premium version of Medispa Theme is supports Contact Form and Google Maps. Theme URL : https://themescorners.com/tc_theme/medispa/ , See Demo : http://medispa-free.themescorners.com/
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: medispa
+Tags: custom-menu, featured-images, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, two-columns, blog, custom-logo
+
+
+MediSpa is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+
+/* All */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #f22853;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: #f22853;
+}
+
+.m_pad {
+    padding: 50px 0;
+}
+
+.site-header {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.medi_section_heading {
+    margin: 0;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 54px;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section_title span{
+   display:inline-block;
+   padding-top:5px;
+}
+
+.section_title_desc {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.medi_logo .img-thumbnail {
+    position: relative;
+    padding: 0;
+    display: block;
+    border: 0;
+}
+.medi_top {
+    background-color: #f22853;
+}
+.medi_logo .img-thumbnail img {
+    width: 200px;
+    height: 80px;
+}
+.medi_info{
+padding:0;
+}
+.medi_info .social {
+    list-style: none;
+    padding: 0;
+    display: block;
+margin-bottom:5px;
+}
+
+.medi_info .social li {
+    padding-top: 5px;
+}
+
+.medi_info .social a {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+}
+
+.medi_info .social li {
+    display: inline-block;
+color:#fff;
+font-size:16px;
+}
+
+.medi_info .social li i {
+    font-size: 14px;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+/*Menu Start */
+
+.menu {
+    margin: 0;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+.menu .navbar-right {
+    margin-top: 35px;
+}
+
+.menu .navbar-nav li a {
+    padding: 0px 20px;
+    color: #333;
+    font-size: 16px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    text-transform: uppercase;
+}
+.menu .navbar-nav li:last-child a {
+ border-right: 0;
+}
+
+.menu .navbar-nav li a:hover,
+.menu .navbar-nav li.active a,
+.menu .navbar-nav li.active a:hover {
+    background-color: #fff !important;
+    color: #111 !important;
+}
+
+.menu .dropdown-menu {
+    padding: 0;
+}
+
+.menu .dropdown-menu li a {
+    padding: 10px;
+}
+
+.menu .navbar-nav li a:hover {
+    background-color: #fff;
+}
+
+.menu .navbar-nav > .active > a,
+.menu .navbar-nav > .active > a:focus,
+.menu .navbar-nav > .active > a:hover {
+   /*  background-color: #f22853;
+     */color: #fff;
+}
+
+.menu .dropdown.open a,
+.menu .dropdown.open a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.menu .dropdown.open .dropdown-menu li a,
+.menu .dropdown .dropdown-menu li a {
+    background-color: #fff;
+    color: #333 !important;
+}
+
+.menu .dropdown .dropdown-menu li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.menu .dropdown .dropdown-menu li ul {
+    right: 157px;
+    top: -3px;
+}
+
+
+/* Menu End */
+
+
+/* Slider */
+
+.medi_slider {
+    margin: 0;
+}
+
+.medi_slider .carousel-caption {
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    right: 0;
+    top: 30%;
+    bottom: inherit;
+}
+.medi_slider .carousel-caption h1 {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 54px;
+    font-weight: bold;
+}
+.medi_social {
+  text-align: right;
+  padding: 0;
+}
+.medi_social .social li {
+  display: inline-block;
+  font-size:16px;
+}
+
+.medi_slider .carousel-caption p {
+    color: #fff;
+    font-size: 24px;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.medi_slider .carousel-caption .btn {
+    background-color: #f22853;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.swiper-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.medi_slider .swiper-slide-active .animation.animated-item-1 {
+    animation: 500ms linear 300ms normal both 1 running zoomIn;
+}
+.medi_slider .swiper-slide-active .animation.animated-item-2 {
+    animation: 500ms linear 600ms normal both 1 running flipInX;
+}
+.medi_slider .swiper-slide-active .animation.animated-item-3 {
+    animation: 500ms linear 900ms normal both 1 running zoomIn;
+}
+/* Slider */
+
+
+/* Services */
+
+.medi_ser_section {
+    margin: 20px 0;
+}
+
+.medi_ser_section .img-thumbnail {
+    border: 0 none;
+    padding: 0;
+    display: block;
+    background-color:transparent;
+}
+
+.medi_ser_section h2 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #f22853;
+}
+
+.medi_ser_section h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.medi_ser_section .btn {
+    margin: 15px 0;
+    margin-left: 20px;
+    padding: 5px 20px;
+    background-color: #f22853;
+    color: #fff;
+    font-size: 18px;
+    display: table-caption;
+}
+
+.medi_ser_section p {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+
+/* Services */
+
+
+/* Blog */
+
+.medi_blog_section {
+    margin: 0;
+}
+
+.medi_blog_desc {
+    padding: 12px;
+}
+
+.post-inner {
+    padding: 10px;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+}
+
+.medi_blog_desc .img-thumbnail {
+    padding: 0;
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    overflow: hidden;
+}
+.m_category {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin:0;
+}
+
+.m_category li {
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.m_category li a {
+    padding: 5px;
+    color: #f22853;
+    text-decoration: none;
+    font-size: 16px;
+}
+.m_category li i{
+    color: #f22853;
+}
+.medi_blog_desc .entry-title {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.medi_right_side .entry-title{
+	margin: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.medi_blog_desc h2 a {
+    color: #f22853;
+    text-decoration: none;
+}
+
+.medi_blog_desc p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+.medi_blog_desc .btn {
+  background-color: #f22853;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.blog_pics {
+    border: 3px solid #f22853;
+    display: block;
+    height: 70px;
+    margin-top: -30px;
+    position: relative;
+    width: 70px !important;
+    float: right;
+}
+
+.blog_pics img {
+    width: 100%;
+    height: 100%;
+}
+
+.m_date{
+	float:left;
+	display: inline-block;
+	font-size: 16px;
+	padding: 5px 0;
+} 
+.m_comment {
+  display: inline-block;
+  float:right;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.medi_related_blog .img-thumbnail .overlay,
+.medi_blog_desc .img-thumbnail .blog_overlay {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.medi_related_blog .img-thumbnail:hover .overlay,
+.medi_blog_desc .img-thumbnail:hover .blog_overlay {
+    visibility: visible;
+    opacity: 1;
+    transition: all 300ms ease 0s;
+}
+
+.medi_related_blog .img-thumbnail .overlay::before,
+.medi_blog_desc .img-thumbnail .blog_overlay::before {
+    content: "";
+    height: 0;
+    width: 0;
+    margin: auto;
+    top: 0;
+    left: 0;
+    transition: all 300ms ease 0s;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.medi_related_blog .img-thumbnail .overlay::after,
+.medi_blog_desc .img-thumbnail .blog_overlay::after {
+    content: "";
+    height: 0;
+    width: 0;
+    top: 0;
+    margin: auto;
+    right: 0;
+    transition: all 300ms ease 0s;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.15);
+    height: 100%;
+}
+
+.medi_related_blog .img-thumbnail:hover .overlay::before,
+.medi_related_blog .img-thumbnail:hover .overlay::after,
+.medi_blog_desc .img-thumbnail:hover .blog_overlay::before,
+.medi_blog_desc .img-thumbnail:hover .blog_overlay::after {
+    width: 100%;
+    transition: all 500ms ease 0s;
+}
+
+.medi_blog_post_detail,
+.medi_blog_pagination,
+.medi_about_author,
+.medi_related_blog,
+.medi_comment_form,
+.medi_comment {
+    margin: 0;
+}
+
+.medi_about_author ul {
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+
+.medi_about_author ul li {
+    display: inline-block;
+}
+
+.medi_about_author ul li i {
+    border: 1px solid #666;
+    color: #666;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.medi_related_blog .img-thumbnail {
+    padding: 0;
+    display: block;
+    position: relative;
+    border: 0;
+}
+
+.medi_related_blog .w_post .overlay a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 25%;
+    color: #fff;
+}
+
+.medi_related_blog .w_post {
+    margin: 0;
+}
+
+.medi_related_blog .w_post h3 a {
+    color: #f22853;
+    text-decoration: none;
+}
+
+.medi_about_author .img-thumbnail {
+    padding: 0;
+    border: 0;
+    display: block;
+    position: relative;
+}
+
+.comments-pics {
+    padding: 10px;
+}
+
+.medi_comment_form label {
+    width: 100%;
+}
+
+.medi_comment_form .form-control {
+    border-radius: 0;
+    min-height: 40px;
+}
+
+.medi_comment_form .btn {
+    background-color: #f22853;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.comments-text a {
+    text-decoration: none;
+    color: #f22853;
+}
+
+.comments-text h3 {
+    margin: 5px 0;
+}
+
+.comments-text span {
+    display: block;
+    font-size: 14px;
+}
+
+.pager .next a,
+.pager .previous a {
+    background-color: #f22853 !important;
+    color: #fff;
+}
+.entry-content, entry-summry {
+    word-wrap: break-word;
+}
+
+/* Blog */
+
+
+/* Blog Single */
+
+.alignnone {
+    height: auto;
+    max-width: 100%;
+}
+
+.aligncenter {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.aligncenter img {
+    width: 100% !important;
+    height: auto;
+}
+
+.alignnone img {
+    height: auto;
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    background-color: #ccc;
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.entry-content p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 20px;
+}
+
+.alignright {
+    float: right;
+}
+
+
+/* Blog Single */
+
+
+/*sidebar */
+
+.medi_sidebar {
+    padding: 0px;
+    /*padding-left: 5px;*/
+}
+
+.sidebar-inner {
+    /* border-left: 2px solid #f22853; */
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+
+/*sidebar */
+
+
+/* Footer Start */
+
+.footer {
+    background-color: #444;
+}
+
+.footer_treatment h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.foot_treat h2 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #f22853;
+}
+
+.foot_treat .img-thumbnail {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    height: 150px;
+    position: relative;
+}
+
+.foot_treat .img-thumbnail img {
+    height: 150px;
+}
+
+.footer_detail {
+    margin: 0;
+}
+
+.footer_widget {
+    padding-left: 10px;
+}
+
+.widget_heading {
+    color: #fff;
+    padding:0;
+    margin: 0;
+}
+
+.widget_heading h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.widget_text {
+    margin: 0;
+}
+
+.widget_text .medi_timing {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.widget_text .f_time {
+    float: right;
+}
+
+.widget_text .medi_timing li {
+    padding: 10px 0;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.widget_text .medi_gallery {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.widget_text .medi_gallery li {
+    display: inline-block;
+    padding: 2px 0;
+    color: #fff;
+}
+
+.widget_text .medi_gallery li img {
+    width: 80px;
+}
+
+.widget_text .medi_serv {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.widget_text .medi_serv li {
+    padding: 10px 0;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.widget_text .medi_serv li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.f_social {
+    list-style: none;
+    padding: 0;
+	margin-bottom:5px;
+    margin-top: 10px;
+}
+
+.f_social li {
+    display: inline-block;
+}
+.medi_social .f_social li i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+}
+.medi_social .f_social{
+ margin-top: 5px;
+}
+.medi_social .f_social li.facebook i {
+    box-shadow: none;
+}
+.f_social li i {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    border: 3px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+}
+.f_social li.facebook i {
+    background-color: #3b5998;
+    color: #fff;
+    box-shadow: 0px 1px 5px 0px #3b5998;
+}
+.f_social li.google i{
+	background-color: #d34836;
+    color: #fff;
+    box-shadow: 0px 1px 5px 0px #d34836;
+}
+.f_social li.twitter i{
+	background-color: #0084b4;
+    color: #fff;
+    box-shadow: 0px 1px 5px 0px #0084b4;
+}
+.f_social li.youtube i{
+	background-color: #bb0000;
+    color: #fff;
+    box-shadow: 0px 1px 5px 0px #bb0000;
+}
+.f_social li.linkedin i{
+	background-color: #0077B5;
+    color: #fff;
+    box-shadow: 0px 1px 5px 0px #0077B5;
+}
+.contacts {
+    padding: 2px 5px;
+}
+
+.widget_text p {
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.footer_copyright {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.copy_link {
+    font-size: 18px;
+}
+
+.footer_copyright .f_social {
+    margin: 0;
+    float: right;
+}
+.swiper2{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+/* Footer Start */
+
+
+/*Widgets */
+
+.tagcloud a {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #f22853;
+    color: #f22853;
+}
+
+.tagcloud a:hover {
+   background-color: #f22853;
+    color: #fff;
+}
+.widget ul {
+    list-style: none;
+    padding-left: 15px;
+}
+.footer_widget ul {
+    padding-left: 5px;
+} 
+.widget li:before {
+    font-family: FontAwesome;
+    content: "\f178";
+    margin-right: 10px;
+    font-size: 14px;
+	color:#f22853;
+}
+.tagcloud {
+    padding-left: 5px;
+}
+.widget ul li a {
+    color: #333;
+    font-size: 16px;
+}
+.widget ul li a:hover{
+    color:#f22853;
+}
+
+.widget li.cat-item:before {
+    font-family: "FontAwesome";
+    content: "\f07b";
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.footer_widget.widget ul li a{
+    color: #FFF;
+}
+.footer_widget.widget ul li a:hover{
+    color:#f22853;
+}
+
+.search-label {
+    width: 100%;
+    padding: 0;
+	margin:0;
+}
+
+.search-field {
+    padding: 10px;
+    outline: 0;
+    border: 3px solid #f22853;
+    width: 93%;
+    margin: 10px;
+}
+
+.Header-widget .search-label {
+    width: 100%;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.Header-widget .search-field {
+    outline: 0;
+    border: 1px solid #f22853;
+    width: 100%;
+    padding: 10px;
+}
+
+.calendar_wrap,
+.calendar_wrap #wp-calendar {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.calendar_wrap #wp-calendar caption {
+    background-color: #333;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calendar_wrap #wp-calendar td, .calendar_wrap #wp-calendar th {
+    text-align: center;
+    border: 4px solid #fff;
+    background-color: rgba(0,0,0,0.1);
+    color: #111;
+    padding: 3px;
+}
+
+
+/*Widgets */
+
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+
+/* Do not show the outline on the skip link target. */
+
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+.bp-error {
+    text-align: center;
+}
+
+.sticky .post-inner {
+    background-color: #333;
+    color: #FFF;
+}
+
+.sticky p,
+.sticky a,
+.sticky i {
+    color: #FFF !important;
+}
+
+.site-title img {
+    width: 100%;
+    height: auto;
+}
+
+.site-title {
+    height: auto;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 42px;
+}
+
+.gallery-caption {}
+
+.bypostauthor {}
+
+.bt-left, .bt-right {
+    /* border: 2px solid #fff; */
+    width: 45px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    z-index: 50;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 5px;
+    padding-top: 7px;
+}
+.bt-left,
+.bt-right{
+    color:#fff;
+}
+.bt-left{
+    left:35%;
+}
+.bt-right{
+    right:35%;
+}
+
+.medi_right_side .bt-left,
+.medi_right_side .bt-right{
+	 width: 60px;
+    height: 60px;
+	padding-top: 10px;
+	 font-size: 24px;
+}
+.medi_right_side .bt-left{
+    left:40%;
+}
+.medi_right_side .bt-right{
+    right:40%;
+}
+.swiper-button-prev1, .swiper-button-next1 {
+    background-color: rgba(255,255,255,0.5);
+    background-image: none !important;
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    text-align: center;
+    color: #eee;
+    padding-top: 15px;
+}
+.nav-previous {
+    float: left;
+padding:5px  10px;
+ border: 1px solid #f22853;
+}
+
+.nav-next {
+    float: right;
+padding:5px  10px;
+border: 1px solid #f22853;
+}
+
+.nav-links {
+    width: 100%;
+    margin: 20px 0;
+}
+.sidebar-widget{
+	margin:0;
+	border-bottom: 3px solid rgba(0,0,0,0.1);
+        background-color: #f5f5f5;
+	margin-bottom:20px;
+	padding:0px;
+}
+.medispa-search .form-group{
+	margin:0;
+}
+.widget-title {
+    margin: 0;
+    border-bottom: 3px solid #000;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    color: #fff;
+    background-color: #f22853;
+    font-size: 20px;
+}
+.medi_footer{
+	padding:50px 0;
+}
+.medi-ser {
+    border: 1px solid #ddd;
+    padding: 7px;
+    text-align: center;
+}
+.medi-ser:hover {
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1) !important;
+}
+.ms-client {
+    display: inline-block;
+    float: none;
+    padding: 5px;
+}
+.medi-clients{
+	margin:0;
+	text-align:center;
+}
+.ms-client .img-thumbnail{
+	background-color:transparent;
+	border-radius:0;
+	padding:5px;
+}
+.site-description{
+	display:inline-block;
+	font-size: 18px;
+}
+.ms-date {
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.footer-copy-text p{
+	font-size:18px;
+	margin:5px 0;
+}
+
+.medspa_comment_form{
+margin:0;
+}
+
+.form-group .btn{
+ background-color: #f22853;
+color:#fff;
+padding:15px 20px;
+}
+
+.menu .navbar-collapse{
+float:right;
+}
+.md-slider {
+    margin: 0;
+    background-color: rgba(255,255,255,0.2);
+    padding: 15px 0;
+    width: 80%;
+    text-align: left;
+    padding-left: 15px;
+}
+.menu .navbar-header {
+    padding: 0;
+}
+
+.ms-content img {
+    width: 250px !important;
+    float: left;
+    margin-right: 15px;
+}
+.comment-respond {
+    padding-left: 15px;
+}
+.comment-form .form-group {
+    margin-bottom: 15px;
+    padding-left: 0;
+}
+.medi_blogs {
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.medi_client{
+	border-top: 1px solid rgba(0,0,0,0.2);
+}
+.medi_right_side .medi_blog_desc {
+    padding: 0;
+}

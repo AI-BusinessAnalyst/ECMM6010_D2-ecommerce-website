@@ -1,0 +1,50 @@
+#accordion-section-medispa-upsell {
+    display: block !important;
+}
+.themescorners-upsale {
+    padding-top: 10px;
+text-align: center;
+}
+.themefarmer-upsale-bt {
+    background-color: #999;
+    display: block;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 50px;
+    margin-bottom: 5px;
+
+}
+.themefarmer-upsale-bt:hover,
+.themefarmer-upsale-bt:visited,
+.themefarmer-upsale-bt:active,
+.themefarmer-upsale-bt:focus{
+    color: #FFF;
+    outline: none;
+}
+
+.themefarmer-upsale-bt:last-child{
+    margin-bottom: 15px;
+}
+#themescorners-pro-button {
+    background-color: #f12853;
+color:#fff;
+    padding: 10px 15px;
+    margin: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#themefarmer-docs-button {
+    background-color: #2ECC71;
+    border: 1px solid #27ae60;
+}
+#themefarmer-details-button {
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+}

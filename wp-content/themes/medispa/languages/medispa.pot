@@ -1,0 +1,434 @@
+# Copyright (C) 2016 ThemeFarmer
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MediSpa 1.0.2\n"
+"Report-Msgid-Bugs-To: https://www.themefarmer.com \n"
+"POT-Creation-Date: 2016-02-14 17:35+0530\n"
+"PO-Revision-Date: 2016-09-18 10:25+0530\n"
+"Last-Translator: themefarmer.com \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:12
+msgid "ERROR"
+msgstr ""
+
+#: 404.php:13
+msgid "Page cannot be found"
+msgstr ""
+
+#: 404.php:14
+msgid ""
+"The Page you requested is not be found. This could be spelling error in the "
+"url."
+msgstr ""
+
+#: 404.php:15
+msgid "Go back to homepage"
+msgstr ""
+
+#: archive.php:20 index.php:20 search.php:22
+msgid "Previous Page"
+msgstr ""
+
+#: archive.php:21 index.php:21 search.php:23
+msgid "Next Page"
+msgstr ""
+
+#: comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:8
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:8 inc/template-tags.php:31 inc/template-tags.php:55
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:12
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:13
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:14
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:33
+msgid "Logged in as "
+msgstr ""
+
+#: comments.php:33
+msgid " Log out?"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:36
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:39
+msgid "Leave a Reply"
+msgstr ""
+
+#: footer.php:9 functions.php:62
+msgid "Footer Widget Area"
+msgstr ""
+
+#: footer.php:11 functions.php:64
+msgid "footer widget area"
+msgstr ""
+
+#: footer.php:21 sidebar.php:17
+msgid "Calendar"
+msgstr ""
+
+#: footer.php:34
+#, php-format
+msgid "Theme by %1$s"
+msgstr ""
+
+#: footer.php:34
+msgid "Theme Farmer"
+msgstr ""
+
+#: functions.php:9
+msgid "Primary"
+msgstr ""
+
+#: functions.php:42 sidebar.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:44 sidebar.php:11
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:52 sidebar-header.php:9
+msgid "header"
+msgstr ""
+
+#: functions.php:54 sidebar-header.php:11
+msgid "Header Widget Area"
+msgstr ""
+
+#: header.php:13
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:4 searchform.php:5
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search "
+msgstr ""
+
+#: sidebar.php:18
+msgid "Search"
+msgstr ""
+
+#: single.php:15
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:16
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:20 inc/template-tags.php:25 inc/template-tags.php:88
+#: inc/template-tags.php:94
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "0 comment"
+msgstr ""
+
+#: inc/template-tags.php:31 inc/template-tags.php:55
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:49
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:60
+#, php-format
+msgctxt "post author"
+msgid " by %s"
+msgstr ""
+
+#: inc/template-tags.php:69
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:90
+#, php-format
+msgid "Tags %1$s"
+msgstr ""
+
+#: inc/template-tags.php:96
+#, php-format
+msgid "Categories %1$s"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:13
+msgid "VIEW PRO VERSION "
+msgstr ""
+
+#: inc/themefarmer-customizer.php:14
+msgid "View Documentation "
+msgstr ""
+
+#: inc/themefarmer-customizer.php:38
+msgid "Select Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:59
+msgid "Top Bar Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:77
+msgid "Open social links in new tab"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:93
+msgid "Facebook Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:107
+msgid "Google Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:122
+msgid "Youtube Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:136
+msgid "Twitter Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:150
+msgid "Linkedin Page URL"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:164
+msgid "Email"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:178
+msgid "Phone"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:186
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:205
+msgid "Hide Slider "
+msgstr ""
+
+#: inc/themefarmer-customizer.php:216
+msgid "Slide One Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:229
+msgid "Slide Two Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:242
+msgid "Slide Three Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:249 inc/themefarmer-variables.php:37
+msgid "Click To Begin"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:260
+msgid "Button Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:275
+msgid "Button Link"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:283
+msgid "Services Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:289
+msgid "Service Heading Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:300
+msgid "Title Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:304
+msgid "Service description text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:315
+msgid "Description Text"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:329
+msgid "Select Service One Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:344
+msgid "Select Service Two Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:359
+msgid "Select Service Three Page"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:367
+msgid "Latest Blogs Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:373
+msgid "Our Blogs"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:383 inc/themefarmer-customizer.php:424
+msgid "Heading"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:388
+msgid "Be updated with latest news"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:398 inc/themefarmer-customizer.php:440
+msgid "Description"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:406
+msgid "Clients Settings"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:413
+msgid "Our Clients"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:429
+msgid "We have awesome client list"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:452
+msgid "Upload Client Image One"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:466
+msgid "Upload Client Image Two"
+msgstr ""
+
+#: inc/themefarmer-customizer.php:480
+msgid "Upload Client Image Three"
+msgstr ""
+
+#: inc/themefarmer-functions.php:24
+msgid "Click To Add Social Links "
+msgstr ""
+
+#: inc/themefarmer-functions.php:61
+msgid "Reply"
+msgstr ""
+
+#: inc/themefarmer-functions.php:73
+msgid "at"
+msgstr ""
+
+#: inc/themefarmer-functions.php:79
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/themefarmer-variables.php:41
+msgid "Work Speaks Thousand Words"
+msgstr ""
+
+#: inc/themefarmer-variables.php:42
+msgid ""
+"We are a group of passionate designers and developers who really love to "
+"create awesome wordpress themes & support."
+msgstr ""
+
+#: inc/themefarmer-variables.php:43
+msgid "Purchase Theme"
+msgstr ""
+
+#: inc/themefarmer-walker.php:114
+msgid "Home"
+msgstr ""
+
+#: template-parts/content-home.php:22 template-parts/content-index.php:22
+#: template-parts/content-search.php:22 template-parts/content-single.php:18
+#: template-parts/content.php:31
+msgid "Categories"
+msgstr ""
+
+#: template-parts/content-home.php:26 template-parts/content-index.php:26
+#: template-parts/content-search.php:26 template-parts/content-single.php:22
+#: template-parts/content.php:35
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content-home.php:30 template-parts/content-index.php:30
+#: template-parts/content-search.php:30 template-parts/content.php:52
+msgid "READ MORE"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 template-parts/content-single.php:30
+#: template-parts/content.php:45
+msgid "Pages:"
+msgstr ""
